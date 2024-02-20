@@ -1,0 +1,9 @@
+<body>
+    <form class="form-cep">
+        <input class="input-cep" #input (keyup)="buscarCep(input.value)" type="number" placeholder="CEP" maxlength="8" autofocus>
+        <button  class="btn-cep"><img src="assets/icons/pesquisar.svg" alt="Pesquisar"></button>
+    </form>
+    <div *ngIf="localidade">
+        <p class="localidade">{{localidade}} - {{uf}}</p>
+    </div>
+</body>

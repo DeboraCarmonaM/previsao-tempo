@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.card-tempo {
+    width: 80%;
+    max-width: 35rem;
+    height: 17rem;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 8rem;
+    border-radius: 5px;
+    background: #248eff;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+}
+
+.data {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.temperatura {
+    font-size: 5rem;
+    margin: 0.5rem 0 0;
+}
+
+.clima {
+    margin-top: 0;
+}
+
+.informacoes {
+    display:flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 1rem 3rem 0;
+}
+
+.erro {
+    display: block;
+    margin: 0 auto;
+    margin-top: 7rem;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}

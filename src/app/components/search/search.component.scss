@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+:root {
+	--background-cards: rgba(255,255,255,.2);
+	--border-cards: 2px solid #fff;
+	--border-radius-cards: 5px;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Lato", sans-serif;
+}
+
+.form-cep, .localidade {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.form-cep {
+    top: 2rem;
+}
+
+.input-cep {
+    border-radius: 5px 0 0 5px;
+    padding: 1rem;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.btn-cep {
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    padding: 1rem 0;
+    width: 3rem;
+    font-size: 1.2rem;
+    background: #248eff;
+    color: #fff;
+}
+
+img {
+    width: 1.06rem;
+    height: 1.06rem;
+}
+
+.localidade {
+    top: 4rem;
+}
+
+
+

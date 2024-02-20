@@ -1,0 +1,27 @@
+<body>
+    <div *ngIf="isLoading" class=card-tempo>
+        <p class="data">{{dataFormatada}}</p>
+        <div>
+            <p class="temperatura">{{previsao.data.temperature}}°</p>
+            <p class="clima">{{previsao.data.condition}}</p>
+        </div>
+        <div class="informacoes">
+            <div>
+                <p>Umidade:</p>
+                <p>{{previsao.data.humidity}}%</p>
+            </div>
+            <div>
+                <p>Sensação:</p>
+                <p>{{previsao.data.sensation}}°</p>
+            </div>
+            <div>
+                <p>Vento:</p>
+                <p>{{previsao.data.wind_velocity}}km/h</p>
+            </div>
+        </div>
+    
+    </div>
+    <div *ngIf="erro" class="erro">
+        Ops! Não foi possível atender a solicitação no momento!
+    </div>
+</body>
